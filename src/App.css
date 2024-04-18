@@ -1,0 +1,13 @@
+.Li{
+text-align: center;
+}
+.Li:hover{
+    background-color: greenyellow;
+    cursor:pointer;
+    transition: 1s linear;
+}
+@media only screen and (max-width:992px){
+    .category{
+        display: none;
+    }
+}
